@@ -27,7 +27,7 @@ jobs:
               uses: microsoft/powerplatform-actions/import-solution@v1.2.0
               with:
                 environment-url: ${{ env.ORGURL }}
-                app-id: ${{ secrets.Appid }}
-                client-secret: ${{ secrets.secret }}
-                tenant-id: ${{ secrets.tenantid }}
+                app-id: ${{ secrets.APPID }}
+                client-secret: ${{ secrets.SECRET }}
+                tenant-id: ${{ secrets.TENANTID }}
                 solution-file: contoso_university_core_managed.zip
